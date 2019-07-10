@@ -1,0 +1,25 @@
+package Homework4;
+import java.util.Scanner;
+public class hw444 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+        System.out.println("Введите слова одной строкой через пробел");
+        String input = sc.nextLine();
+       
+        int n = 0;
+        if(input.length() != 0){
+            n++;
+            
+            for (int i = 0; i < input.length(); i++) {
+                if(input.charAt(i) == ' '){
+                    n++;
+                }
+            }
+        }
+
+        System.out.println("Кол-во слов которое Вы ввели:"+n);
+	}
+
+}
