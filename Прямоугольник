@@ -1,0 +1,21 @@
+package Homework4;
+import java.util.Arrays;
+import java.util.Scanner;
+public class hw4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Ввведите кол-во столбцов:");
+		int l = sc.nextInt();
+		System.out.println("Введите кол-во строк:");
+		int h = sc.nextInt();
+		for(int n=0; n<l;n++) {
+			for(int m=0; m<h;m++) {
+			System.out.print("*");
+		}
+			System.out.println();
+	}
+
+}
+}
